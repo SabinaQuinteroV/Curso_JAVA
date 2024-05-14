@@ -1,7 +1,7 @@
 class Animal {
 	String nombre;
 	public void respirar() {
-		System.out.println("Soy un animal  y puedo respirar");
+		System.out.println("Soy un animal y puedo respirar");
 	}
 }
 

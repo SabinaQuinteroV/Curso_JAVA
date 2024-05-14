@@ -23,5 +23,7 @@ public class Areas {
 		 float areaCir= pi*(rad*rad);
 		 
 		 System.out.println("El area del Circulo es : " + areaCir);
+		 
+		 System.out.println("prueba cambios git");
 	}
 }
