@@ -5,3 +5,4 @@
 2024-05-14 14:15:56,291 [Worker-20: Git Repository Change Scanner] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\sabinagq\git\ejemplos_JAVA]
 2024-05-14 16:26:14,103 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-05-14 16:29:56,518 [Worker-10: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\sabinagq\Desktop\git\Curso_JAVA\.git]
+2024-05-15 11:40:41,313 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

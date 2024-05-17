@@ -1,6 +1,6 @@
 package Polimorfismo.figuras;
 
-public class Circulo extends Figura{
+public class Circulo extends Figura implements Dibujable{
 	private double radio;
 	
 	public Circulo(String color, double radio) {
@@ -12,5 +12,12 @@ public class Circulo extends Figura{
 	public double calcularArea() {
 		return Math.PI*Math.pow(radio, 2);
 	}
+
+	@Override
+	public void dibujar() {
+		System.out.println("Dibujando un Circulo");
+		
+	}
+	
 	
 }

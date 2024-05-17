@@ -1,6 +1,6 @@
 package Polimorfismo.figuras;
 
-public class Rectangulo extends Figura{
+public class Rectangulo extends Figura implements Dibujable{
 	private double base;
 	private double altura;
 	
@@ -14,6 +14,12 @@ public class Rectangulo extends Figura{
 	public double calcularArea() {
 		// TODO Auto-generated method stub
 		return base*altura;
+	}
+
+	@Override
+	public void dibujar() {
+		System.out.println("Dibujando un Rectangulo");
+		
 	}
 	
 	
